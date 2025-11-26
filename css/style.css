@@ -1,0 +1,553 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+.box-oraing {
+    background-color: #FFEDD4;
+    color: #F64900;
+}
+
+.bg-oraing {
+    background-color: #FF6900;
+}
+
+.text-oraing {
+    color: #F64900;
+}
+
+.text-red {
+    color: #FB2B37;
+}
+
+.box-blue {
+    background-color: #DBEAFF;
+    color: #1447e6;
+}
+
+.text-blue {
+    color: #2B7FFF;
+}
+
+.box-red {
+    background-color: #FFE2E2;
+    color: #E7000B;
+}
+
+
+.box-grean {
+    background-color: #DCFCE6;
+    color: #008236;
+}
+
+.box-yellow {
+    background-color: #FFF9C2;
+    color: #D08800;
+}
+
+.box-pink {
+    background-color: #FCE7F4;
+    color: #E60076;
+}
+
+
+
+/* =======================Golaba Style======================= */
+
+
+
+
+/* ======= Start Style NaveBar====== */
+
+nav {
+    border-bottom: 1px solid #ffedd4;
+    box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-toggler i {
+    font-size: 25px;
+    line-height: 28px;
+    transition: all 0.25s;
+}
+
+.navbar-toggler:hover i {
+    color: #F64900;
+    ;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+nav .parnet .icone {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #FF6900, #FD4623);
+
+
+}
+
+nav .parnet .icone i {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+nav .parnet .content h1 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: black;
+}
+
+nav .parnet .content p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #6a7282;
+}
+
+
+nav .nav-item i {
+    color: #4A5565;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+nav .nav-item {
+    transition: all 0.25s;
+}
+
+nav .nav-item:hover {
+    color: #F64900;
+}
+
+nav .nav-item:hover i {
+    color: #F64900;
+}
+
+nav .nav-item .box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFB86A;
+}
+
+
+
+
+/* ======= End Style NaveBar====== */
+
+
+/* ============ Start Style Section ============== */
+section.one {
+    background-color: #FFFCEA;
+
+}
+
+
+/* Style Card Itme lf */
+section .box-image {
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+section .box-image .imge-1 {
+    background-image: url(../images/imgi1_photo-1603133872878-684f208fb84b.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-2 {
+    background-image: url(../images/imgi2_photo-1559314809-0d155014e29e.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-3 {
+    background-image: url(../images/imgi3_photo-1568901346375-23c9450c58cd.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-4 {
+    background-image: url(../images/imgi4_photo-1509722747041-616f39b57569.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-5 {
+    background-image: url(../images/imgi5_photo-1546069901-eacef0df6022.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-6 {
+    background-image: url(../images/imgi6_photo-1546793665-c74683f339c1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-7 {
+    background-image: url(../images/imgi7_photo-1633504581786-316c8002b1b9.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+section .box-image .imge-8 {
+    background-image: url(../images/imgi8_photo-1467003909585-2f8a72700288.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+
+section .box-image .layer-one {
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    top: 20px;
+    left: 20px;
+}
+
+section .box-image .layer-one i {
+    color: #FDC800;
+}
+
+section .box-image .layer-one span.one {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+section .box-image .layer-one span.two {
+    color: #6a7282;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+section .box-image .layer-two {
+    padding: 12px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    border-radius: 20px;
+}
+
+
+section .box-image .layer-two i {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+section .box-image .layer-two p.one {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #6a7282;
+}
+
+
+section .box-image .layer-two p.two {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #101828;
+}
+
+
+/* Style Card Itme rh */
+
+
+section .card-item-rh {
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+}
+
+section .card-item-rh .inner {
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+section .card-item-rh .inner .head .box-left .box-head {
+    margin: 0px 0px 12px;
+}
+
+
+section .card-item-rh .inner .head .box-left .box-head .box-one {
+    padding: 2px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+section .card-item-rh .inner .head .box-left .box-head .box-two {
+    padding: 2px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+
+section .card-item-rh .inner .head .box-left h3 {
+    margin: 0px 0px 8px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #101828;
+}
+
+
+section .card-item-rh .inner .head .box-left p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #4a5565;
+}
+
+
+section .card-item-rh .inner .head .box-right .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    transition: all 0.25s;
+}
+
+section .card-item-rh .inner .head .box-right .icon:hover {
+    background-color: #FFD6A8;
+}
+
+
+/* Style Nav And Taps */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #F64900;
+    font-weight: bold;
+    border-bottom: 2px solid #F64900;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav {
+    --bs-nav-link-color: #6A7282;
+    --bs-nav-link-hover-color: #364153;
+    font-weight: 700;
+    margin: 0px 0px 24px;
+    padding: 16px;
+    border-bottom: 1px solid #ebe6e7;
+}
+
+
+/* Style Nav One */
+section .tab-content .nav-one {
+    padding: 24px;
+    background-color: #FFFAEB;
+    border-radius: 20px;
+}
+
+section .tab-content .nav-one .parent {
+    margin: 0px 0px 12px;
+}
+
+
+section .tab-content .nav-one .parent .number {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+
+section .tab-content .nav-one .parent .content {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Style Nav two */
+
+section .tab-content .nav-two .parent {
+    margin: 0px 0px 24px;
+}
+
+section .tab-content .nav-two .parent .number {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+section .tab-content .nav-two .parent .content {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #364153;
+
+}
+
+
+/* Style Nav Three */
+
+
+
+section .tab-content .nav-three .inner {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #F9FAFB;
+}
+
+
+section .tab-content .nav-three .inner .left .icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+section .tab-content .nav-three .inner .left .content {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #364153;
+}
+
+section .tab-content .nav-three .inner .right {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #101828;
+}
+
+
+/* Style Nav Foure */
+
+
+section .tab-content .nav-four .parent {
+    margin: 0px 0px 16px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #FFFBEA;
+    border-left: 4px solid #FFBA00;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #364153;
+}
+
+
+section .tab-content .nav-four .parent i {
+    color: #E17100;
+}
+
+
+
+/* Style button  */
+
+section .card-item-rh .box-btn {
+    margin: 32px 0px 0px;
+    padding: 20px 0px 0px;
+    border-top: 1px solid #E6E7EB;
+}
+
+
+section .card-item-rh .box-btn button {
+    padding: 8px 16px;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    background: linear-gradient(to right, #FF6500, #FC3332);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    transition: all 0.25s;
+
+}
+
+section .card-item-rh .box-btn-1 {
+    margin: 32px 0px 0px;
+    padding: 20px 0px 0px;
+    border-top: 1px solid #E6E7EB;
+}
+
+section .card-item-rh .box-btn-1 button {
+    padding: 8px 16px;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    background: linear-gradient(to right, #FF6500, #FC3332);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    transition: all 0.25s;
+
+}
+
+section .card-item-rh .box-btn button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #F54700, #E80006);
+}
+
+section .card-item-rh .box-btn-1 button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #F54700, #E80006);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Start Style Section====== */

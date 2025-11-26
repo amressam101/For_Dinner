@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- media style -->
+    <link rel="stylesheet" href="Css/media.css" />
+</head>
+
+<body>
+
+    <!-- ============Start NavBanr============== -->
+    <nav class="navbar navbar-expand-lg bg-white py-3 ">
+        <div class="container">
+            <div class="parnet d-flex justify-content-start align-items-center gap-2">
+                <div class="icone d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-utensils text-white"></i>
+                </div>
+                <div class="content">
+                    <h1>What's For Dinner</h1>
+                    <p>Your daily meal inspiration</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex align-content-start  align-items-lg-center gap-lg-4">
+                    <li class="nav-item mt-3 ms-3 m-lg-0">
+                        <i class="fa-solid fa-bookmark me-1"></i>
+                        <span class="d-lg-none">Saved Recipes</span>
+                    </li>
+                    <li class="nav-item mt-3 ms-3 m-lg-0">
+                        <i class="fa-solid fa-clock-rotate-left me-1"></i>
+                        <span class="d-lg-none">Recent</span>
+                    </li>
+                    <li class="nav-item mt-3 ms-3 m-lg-0">
+                        <i class="fa-solid fa-gear me-1"></i>
+                        <span class="d-lg-none">Setting</span>
+                    </li>
+                    <li class="nav-item mt-3 ms-2 m-lg-0">
+                        <div class=" box rounded-circle  d-flex justify-content-start align-items-center gap-2">
+                            <div>
+                                <img width="35px" class="rounded-circle" src="images/imgi_avatar-4.webp" alt="">
+                            </div>
+                            <span class="d-lg-none">Profile</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ============End NavBanr============== -->
+
+    <section class="one min-vh-100">
+        <div class="container">
+            <div id="mainRow" class="row g-0 py-5">
+                <div class="card-item-lf col-lg-5 shadow-lg rounded-5">
+                    <div class="inner rounded-5">
+                        <div class="box-image  position-relative overflow-hidden">
+                            <div class="imge-8">
+                            </div>
+                            <div class="layer-one position-absolute ">
+                                <i class="fa-solid fa-star me-1"></i>
+                                <span class="one me-1">
+                                    4.9
+                                </span>
+                                <span class="two">(187 reviews)</span>
+                            </div>
+                            <div
+                                class="layer-two bg-white d-flex justify-content-around align-items-center  position-absolute ">
+                                <div class="Prep-Time text-center">
+                                    <i class="fa-solid fa-clock text-oraing"></i>
+                                    <p class="one">Prep Time</p>
+                                    <p class="two">10 min</p>
+                                </div>
+                                <div class="Cook-Time text-center">
+                                    <i class="fa-solid fa-fire-burner text-red"></i>
+                                    <p class="one">Cook Time</p>
+                                    <p class="two">15 min</p>
+                                </div>
+                                <div class="Servings text-center">
+                                    <i class="fa-solid fa-users text-blue"></i>
+                                    <p class="one">Servings</p>
+                                    <p class="two">2 people</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-rh col-lg-7 shadow-lg bg-white">
+                    <div class="inner">
+                        <div class="head d-flex justify-content-between align-items-center">
+                            <div class="box-left">
+                                <div class="box-head d-flex justify-content-start align-items-center gap-3">
+                                    <div class="box-one box-grean ">
+                                        Easy
+                                    </div>
+                                    <div class="box-two box-blue ">
+                                        Seafood
+                                    </div>
+                                </div>
+                                <h3>Honey Garlic Salmon</h3>
+                                <p>
+                                    Pan-seared salmon with a sweet and savory glaze
+                                </p>
+                            </div>
+                            <div class="box-right d-flex justify-content-center align-items-center gap-2">
+                                <div class="icon box-oraing d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                                <div class="icon box-oraing d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs d-flex justify-content-around align-items-center" id="myTab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="ingredients-tab" data-bs-toggle="tab"
+                                    data-bs-target="#ingredients-tab-pane" type="button" role="tab"
+                                    aria-controls="ingredients-tab-pane" aria-selected="true"> <i
+                                        class="fa-solid fa-list-check me-2"></i> Ingredients</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="instructions-tab" data-bs-toggle="tab"
+                                    data-bs-target="#instructions-tab-pane" type="button" role="tab"
+                                    aria-controls="instructions-tab-pane" aria-selected="false"> <i
+                                        class="fa-solid fa-book-open me-2"></i> Instructions</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="nutrition-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nutrition-tab-pane" type="button" role="tab"
+                                    aria-controls="nutrition-tab-pane" aria-selected="false"> <i
+                                        class="fa-solid fa-chart-pie me-2"></i>Nutrition</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="Chef-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Chef-tab-pane" type="button" role="tab"
+                                    aria-controls="Chef-tab-pane" aria-selected="false"><i
+                                        class="fa-solid fa-lightbulb me-2"></i>Chef's Tips</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="ingredients-tab-pane" role="tabpanel"
+                                aria-labelledby="ingredients-tab" tabindex="0">
+                                <div class="nav-one">
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            1
+                                        </div>
+                                        <div class="content">
+                                            2 salmon fillets (6oz each)
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            2
+                                        </div>
+                                        <div class="content">
+                                            3 tablespoons honey
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            3
+                                        </div>
+                                        <div class="content">
+                                            2 tablespoons soy sauce
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            4
+                                        </div>
+                                        <div class="content">
+                                            4 cloves garlic, minced
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            5
+                                        </div>
+                                        <div class="content">
+                                            1 tablespoon olive oil
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            6
+                                        </div>
+                                        <div class="content">
+                                            1 teaspoon fresh ginger, grated
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            7
+                                        </div>
+                                        <div class="content">
+                                            Sesame seeds for garnish
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-2">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center rounded-circle text-white">
+                                            8
+                                        </div>
+                                        <div class="content">
+                                            Green onions, sliced
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="instructions-tab-pane" role="tabpanel"
+                                aria-labelledby="instructions-tab" tabindex="0">
+                                <div class="nav-two">
+                                    <div class="parent d-flex justify-content-start align-items-center gap-3">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center text-white rounded-4">
+                                            1
+                                        </div>
+                                        <div class="content">
+                                            Pat salmon fillets dry with paper towels. Season with salt and pepper.
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-3">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center text-white rounded-4">
+                                            2
+                                        </div>
+                                        <div class="content">
+                                            In a small bowl, whisk together honey, soy sauce, minced garlic, and grated
+                                            ginger.
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-3">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center text-white rounded-4">
+                                            3
+                                        </div>
+                                        <div class="content">
+                                            Heat olive oil in a large skillet over medium-high heat.
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-3">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center text-white rounded-4">
+                                            4
+                                        </div>
+                                        <div class="content">
+                                            Place salmon fillets skin-side up in the pan. Cook for 4-5 minutes until
+                                            golden.
+                                        </div>
+                                    </div>
+                                    <div class="parent d-flex justify-content-start align-items-center gap-3">
+                                        <div
+                                            class="number bg-oraing d-flex justify-content-center align-items-center text-white rounded-4">
+                                            5
+                                        </div>
+                                        <div class="content">
+                                            Flip salmon and pour honey garlic sauce over the top. Cook for another 4-5
+                                            minutes.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nutrition-tab-pane" role="tabpanel"
+                                aria-labelledby="nutrition-tab" tabindex="0">
+                                <div class="nav-three">
+                                    <div class="row g-4">
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-oraing d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-fire"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Calories
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    380 kcal
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-blue d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-dumbbell"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Protein
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    35g
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-yellow d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-wheat-awn"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Carbohydrates
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    28g
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-red d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-droplet"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Fat
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    14g
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-grean d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-seedling"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Fiber
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    0g
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cad-item col-md-6">
+                                            <div class="inner d-flex justify-content-between align-items-center">
+                                                <div class="left d-flex justify-content-start align-items-center gap-3">
+                                                    <div
+                                                        class="icon box-pink d-flex justify-content-center align-items-center rounded-3">
+                                                        <i class="fa-solid fa-cube"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        Sodium
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    720mg
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Chef-tab-pane" role="tabpanel" aria-labelledby="Chef-tab"
+                                tabindex="0">
+                                <div class="nav-four">
+                                    <div class="parent">
+                                        <i class="fa-solid fa-circle-check m-2"></i>
+                                        Don't overcook salmon - it should be slightly pink in the center
+                                    </div>
+                                    <div class="parent">
+                                        <i class="fa-solid fa-circle-check m-2"></i>
+                                        Use wild-caught salmon for best flavor and nutrition
+                                    </div>
+                                    <div class="parent">
+                                        <i class="fa-solid fa-circle-check m-2"></i>
+                                        Let the sauce caramelize slightly for deeper flavor
+                                    </div>
+                                    <div class="parent">
+                                        <i class="fa-solid fa-circle-check m-2"></i>
+                                        Pair with steamed broccoli or asparagus for a complete meal
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-btn-1 ">
+                            <button onclick="anotherRecipe()" class="bg-danger "> <i class="fa-solid fa-rotate"></i> Try
+                                Another Recipe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap js -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
